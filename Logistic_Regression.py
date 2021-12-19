@@ -7,8 +7,8 @@ Created on Thu Sep 30 23:21:43 2021
 
 import numpy as np
 import matplotlib.pyplot as plt
-x = np.load(r"C:\Users\User\Desktop\EECS 545\HW2\hw2p4_data\fashion_mnist_images.npy")
-y = np.load(r"C:\Users\User\Desktop\EECS 545\HW2\hw2p4_data\fashion_mnist_labels.npy")
+x = np.load("fashion_mnist_images.npy")
+y = np.load("fashion_mnist_labels.npy")
 d, n= x.shape #(784, 6000)
 i = 0 #Index of the image to be visualized
 #one column = one image
